@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* HERO */
+.container.hero {
+  gap: 20px;
+  padding: 20px;
+}
+
+.top-bar {
+  width: 100%;
+  justify-self: flex-start;
+  justify-content: space-between;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  gap: 10px;
+}
+
+.nav-bar ul li a {
+  font-weight: 500;
+}
+
+.hero-header {
+  /* flex: ; */
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-text h2 {
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.hero-text p {
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.hero-text button {
+  justify-self: flex-end;
+  align-self: flex-start;
+}
+
+.hero-image {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+/* FEATURES */

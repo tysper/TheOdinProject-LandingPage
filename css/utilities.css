@@ -1,0 +1,205 @@
+/* ==== COLORS === */
+:root {
+  --primary-color: #1f2937;
+  --secondary-color: #3882f6;
+  --light-color: #f9faf8;
+  --grey-color: #e5e7eb;
+}
+
+/* ==TEXT== */
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.txt-p {
+  color: var(--primary-color);
+}
+
+.txt-s {
+  color: var(--secondary-color);
+}
+
+.txt-l {
+  color: var(--light-color);
+}
+
+.txt-g {
+  color: var(--grey-color);
+}
+
+/* ==BACKGROUND== */
+.bg-p {
+  background-color: var(--primary-color);
+}
+
+.bg-s {
+  background-color: var(--secondary-color);
+}
+
+.bg-l {
+  background-color: var(--light-color);
+}
+
+.bg-g {
+  background-color: var(--grey-color);
+}
+
+/* ===FONT SIZES=== */
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 1.5rem;
+}
+
+.lg {
+  font-size: 2rem;
+}
+
+.xl {
+  font-size: 2.5rem;
+}
+
+.xxl {
+  font-size: 3rem;
+}
+
+/* ===FONT WEIGHT=== */
+.normal {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.extra-bold {
+  font-weight: bolder;
+}
+
+/* ===SPACING=== */
+.px-1 {
+  padding: 0 10px;
+}
+
+.px-2 {
+  padding: 0 20px;
+}
+
+.px-3 {
+  padding: 0 30px;
+}
+
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.mx-1 {
+  margin: 0 10px;
+}
+
+.mx-2 {
+  margin: 0 20px;
+}
+
+.mx-3 {
+  margin: 0 30px;
+}
+
+.my-1 {
+  margin: 10px 0;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+
+.my-3 {
+  margin: 30px 0;
+}
+
+.m-1 {
+  margin: 10px;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+/* ===BUTTON STYLE=== */
+.filled-btn {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.outline-btn {
+  border: none;
+  border: 1px solid var(--light-color);
+  background: transparent;
+  color: var(--light-color);
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
+/* ===ALIGN AND POSITION=== */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
