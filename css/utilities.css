@@ -1,5 +1,7 @@
 /* ==== COLORS === */
 :root {
+  /* --primary-color: #5f3dc4;
+  --secondary-color: #845ef7; */
   --primary-color: #1f2937;
   --secondary-color: #3882f6;
   --light-color: #f9faf8;
@@ -68,7 +70,7 @@ a:visited {
 }
 
 .xxl {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 /* ===FONT WEIGHT=== */
@@ -81,7 +83,7 @@ a:visited {
 }
 
 .extra-bold {
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 /* ===SPACING=== */
@@ -166,7 +168,7 @@ a:visited {
 
 .outline-btn {
   border: none;
-  border: 1px solid var(--light-color);
+  border: 2px solid var(--light-color);
   background: transparent;
   color: var(--light-color);
 }
@@ -184,7 +186,6 @@ a:visited {
 .flex-col {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 

@@ -9,7 +9,7 @@
 
 /* HERO */
 .container.hero {
-  gap: 20px;
+  justify-content: space-between;
   padding: 20px;
 }
 
@@ -28,10 +28,12 @@
   font-weight: 500;
 }
 
-.hero-header {
+.hero-header.flex-row {
   /* flex: ; */
-  align-items: flex-start;
-  gap: 40px;
+  justify-self: flex-end;
+  gap: 50px;
+  flex: 1;
+  align-items: center;
 }
 
 .hero-text {
@@ -43,7 +45,7 @@
 }
 
 .hero-text h2 {
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   line-height: 1;
 }
 
@@ -55,11 +57,12 @@
 .hero-text button {
   justify-self: flex-end;
   align-self: flex-start;
+  letter-spacing: 1px;
 }
 
 .hero-image {
   flex: 1;
-  height: 100%;
+  height: 60%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -70,3 +73,88 @@
 }
 
 /* FEATURES */
+.container.features {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cards {
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  height: 260px;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+.card p {
+  letter-spacing: 2px;
+}
+
+/* Quote Section */
+.quote-inner.container {
+  width: 100%;
+}
+
+.quote {
+  height: 100%;
+  grid-template-rows: auto;
+  align-content: center;
+  gap: 20px;
+}
+
+.quote-top {
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.quote-bottom {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  justify-self: flex-end;
+}
+
+/* Call to action Section */
+
+.cta-wrapper .container {
+  align-items: unset;
+  justify-content: center;
+}
+
+.cta-content {
+  padding: 40px;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.cta-text {
+  text-align: left;
+}
+
+.cta-text h2 {
+  margin-bottom: 5px;
+}
+
+.cta-text p {
+  font-size: 20px;
+}
+
+footer .container {
+  height: 150px;
+  font-style: italic;
+}
